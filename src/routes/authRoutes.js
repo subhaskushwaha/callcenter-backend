@@ -11,6 +11,6 @@ router.post("/register", register);
 router.post("/login", login);
 // router.post("/resetpassword", resetpassword);
 // router.post("/forgetpassword", forgetpassword);
-router.post("/changepassword",authMiddleware, changepassword);
+router.post("/changepassword", authMiddleware , changepassword);
 
 module.exports = router;
